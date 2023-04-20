@@ -56,3 +56,23 @@ color: red;
 .p7_nav a{
     color: white;
 }
+/* PUNTO 8*/
+.p8_table{
+    background-color: yellow;
+    border: 1px dotted;
+    border-bottom: 1px red dashed;
+    border-spacing: 0px;
+}
+.p8_table thead th{
+    color: red;
+    font-style: italic;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.p8_table thead th::first-letter{
+    font-size: 20px;
+    font-weight: bold;
+}
+.p8_table td{
+    border: 1px dotted;
+}
