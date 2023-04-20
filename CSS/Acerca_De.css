@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?     family=Bebas+Neue&family=Great+Vibes&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #968476;
+}
+#pri-contain{
+    width: 90%;
+    height: 570px;
+    margin-top: 100px;
+    margin-left: 5%;
+    background-color: #E3D4C9;
+    border-radius: 25px;
+    box-shadow: 0px 15px 15px 0px #4e3824;
+    display: flex;
+}
+
+#pri-contain .menu{
+    width: 12%;
+    height: 100%;   
+    background-color: #CDC2B9;
+    border-radius: 25px 10px 10px 25px;
+    text-align: center;
+    display: flex;
+}
+#pri-contain .menu nav{
+    margin: 45% 22%;
+}
+#pri-contain .menu nav li{
+    width: auto;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px 0px;
+}
+#pri-contain .menu nav ul li:hover{
+    background-color: #E3D4C9;
+}
+#pri-contain .menu nav li a{
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+#pri-contain .menu nav ul li a:hover{
+    color: #968476;
+}
+
+#pri-contain .logo{         /*background-color: rgba(0, 255, 255, 0.223);*/
+    height: 200px;
+    margin-top: -95px;
+    padding-left: 700px;
+    text-align: center;
+    position: absolute;
+}
+#pri-contain .logo img{
+    height: 200px;
+    margin: auto;
+}
+
+#pri-contain .slider{
+    width: 70%;
+    height: 60%;
+    margin-top: 160px;
+    margin-left: 8%;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#pri-contain .slider ul{
+    width: 400%;
+    display: flex;
+    animation: cambio 50s infinite alternate linear;
+}
+#pri-contain .slider li{
+    width: 100%;
+    list-style: none;
+}
+#pri-contain .slider h2{
+    font-size: 45px;
+    font-family: Verdana;
+}
+#pri-contain .slider p{
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #000000;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+footer{
+    width: 100%;
+    margin-top: 20px;
+    height: 150px;
+}
+footer .social_media{
+    width: 500px;
+    height: 100px;
+    padding-left: 680px;
+    margin-top: 50px;
+    justify-content: center;
+}
+footer .social_media i{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    padding: 30px 20px 0px 20px;
+    text-align: center;
+}

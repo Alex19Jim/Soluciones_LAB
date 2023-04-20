@@ -1,0 +1,58 @@
+/*PUNTO 4*/
+.p4_blue{
+    color: blue;
+}
+.p4_red{
+color: red;
+}
+/*PUNTO 5*/
+.p5_green{
+    text-decoration: underline;
+    color:  green;
+}
+.p5_red{
+    color: red;
+    font-weight: bold;
+}
+.p5_ul_ul{
+    text-decoration: underline overline;
+}
+.p5_big{
+    font-size: 40px;
+    font-weight: bold;
+}
+.p5_blue{
+    color: blue;
+    font-weight: bold;
+}
+.p5_red_ul{
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+}
+/*PUNTO 6*/
+.p6_yellow{
+    font-size:  20px;
+    color: yellow;
+}
+.p6_purple{
+    font-size: 20px;
+    color: purple;
+}
+/* PUNTO 7*/
+.p7_nav{
+    background-color: pink;
+}
+.p7_nav ul{
+    display: inline-flex;
+}
+.p7_nav li{
+    list-style: none;
+    padding: 10px;
+}
+.p7_nav li:hover{
+    background-color: blue;
+}
+.p7_nav a{
+    color: white;
+}
