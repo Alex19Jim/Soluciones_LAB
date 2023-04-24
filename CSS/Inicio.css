@@ -116,9 +116,13 @@ footer{
 footer .social_media{
     width: 500px;
     height: 100px;
-    padding-left: 750px;
+    padding-left: 700px;
     margin-top: 50px;
     justify-content: center;
+}
+footer .social_media a{
+    list-style: none;
+    text-decoration: none;
 }
 footer .social_media i{
     color: rgb(0, 0, 0);

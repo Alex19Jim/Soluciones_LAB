@@ -147,6 +147,10 @@ footer .social_media{
     margin-top: 50px;
     justify-content: center;
 }
+footer .social_media a{
+    list-style: none;
+    text-decoration: none;
+}
 footer .social_media i{
     color: rgb(0, 0, 0);
     font-size: 45px;
