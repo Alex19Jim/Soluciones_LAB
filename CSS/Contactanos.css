@@ -29,7 +29,9 @@ body {
     display: flex;
 }
 #pri-contain .menu nav{
-    margin: 45% 22%;
+    width: 100%;
+    height: 70%;
+    margin: 45% 0%;
 }
 #pri-contain .menu nav li{
     width: auto;
