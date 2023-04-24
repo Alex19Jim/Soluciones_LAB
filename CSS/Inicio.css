@@ -57,7 +57,7 @@ body{
     margin-top: -95px;
     position: absolute;
     text-align: center;
-    padding-left: 600px;
+    padding-left: 725px;
 }
 #pri-contain .Logo img{
     height: 200px;
@@ -110,7 +110,7 @@ footer{
 footer .social_media{
     width: 500px;
     height: 100px;
-    padding-left: 670px;
+    padding-left: 750px;
     margin-top: 50px;
     justify-content: center;
 }
