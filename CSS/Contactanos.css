@@ -151,5 +151,10 @@ footer .social_media i{
     color: rgb(0, 0, 0);
     font-size: 45px;
     padding: 30px 20px 0px 20px;
-    text-align: center;
+    text-align: center; transition: all 0.5s;
+}
+footer .social_media i:hover{
+    color: silver;
+    transform: rotate(15deg);
+    transition: all 0.5s;
 }
