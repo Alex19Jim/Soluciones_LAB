@@ -33,7 +33,7 @@ header .logo img{
     width: 90%;
     height: 570px;
     margin-left: 5%;
-    background-color: #E3D4C9;
+    background-color: #c0ad9e;
     border-radius: 25px;
     box-shadow: 0px 15px 15px 0px #4e3824;
     display: flex;
@@ -60,7 +60,7 @@ header .logo img{
     padding: 20px 0px;
 }
 #pri-contain .menu nav ul li:hover{
-    background-color: #E3D4C9;
+    background-color: #c0ad9e;
 }
 #pri-contain .menu nav li a{
     font-size: 12px;
@@ -112,19 +112,20 @@ header .logo img{
 }
 #pri-contain .descripcion button{
     padding: 10px 80px;
-    background-color: #a89283;
+    background-color: #CDC2B9;
     border-radius: 15px;
     border: none;
     margin-top: 80px;
     font-weight: 500;
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     box-shadow: 0px 2px 8px 1px #282727;
     transition: all 1.5s;
 }
 #pri-contain .descripcion button:hover{
     transition: all 0.5s;
     padding: 15px 90px;
+    color: white;
     background-color: #4e3824;
 }
 
@@ -133,7 +134,7 @@ header .logo img{
     width: 90%;
     height: 570px;
     margin-left: 5%;
-    background-color: #E3D4C9;
+    background-color: #c0ad9e;
     border-radius: 25px;
     box-shadow: 0px 15px 15px 0px #4e3824;
     display: flex;
@@ -164,7 +165,7 @@ header .logo img{
     color: #000000;
 }
 #contain_2 .menu nav ul li:hover{
-    background-color: #E3D4C9;
+    background-color: #c0ad9e;
 }
 #contain_2 .menu nav ul li a:hover{
     color: #968476;
@@ -240,19 +241,20 @@ header .logo img{
 
 #contain_2 .descripcion button{
     padding: 5px 30px;
-    background-color: #a89283;
+    background-color: #CDC2B9;
     border-radius: 15px;
     border: none;
     margin-top: 20px;
     margin-left: -70px;
     font-weight: 350;
     font-size: 15px;
-    color: rgb(255, 255, 255);
+    color: black;
     box-shadow: 0px 2px 8px 1px #282727;
 }
 #contain_2 .descripcion button:hover{
     transition: all 0.5s;
     padding: 8px 35px;
+    color: white;
     background-color: #4e3824;
 }
 
@@ -262,7 +264,7 @@ header .logo img{
     width: 90%;
     height: 570px;
     margin-left: 5%;
-    background-color: #E3D4C9;
+    background-color: #c0ad9e;
     border-radius: 25px;
     box-shadow: 0px 15px 15px 0px #4e3824;
     display: flex;
@@ -288,7 +290,7 @@ header .logo img{
     padding: 20px 0px;
 }
 #contain_3 .menu nav ul li:hover{
-    background-color: #E3D4C9;
+    background-color: #c0ad9e;
 }
 #contain_3 .menu nav li a{
     font-size: 12px;
@@ -359,7 +361,7 @@ header .logo img{
     width: 90%;
     height: 570px;
     margin-left: 5%;
-    background-color: #E3D4C9;
+    background-color: #c0ad9e;
     border-radius: 25px;
     box-shadow: 0px 15px 15px 0px #4e3824;
     display: flex;
@@ -385,7 +387,7 @@ header .logo img{
     padding: 20px 0px;
 }
 #contain_4 .menu nav ul li:hover{
-    background-color: #E3D4C9;
+    background-color: #c0ad9e;
 }
 #contain_4 .menu nav li a{
     font-size: 12px;
@@ -446,10 +448,10 @@ header .logo img{
     box-shadow: 2px 8px 8px 0px #968476;
 }
 
-#contain_5 .contenido img{
-    width: 300px;
-    height: 280px;
-    margin-left: 100px;
+#contain_4 .contenido img{
+    width: 350px;
+    height: 300px;
+    margin-left: 80px;
     margin-top: -25px;
 }
 
@@ -458,7 +460,7 @@ header .logo img{
     width: 90%;
     height: 570px;
     margin-left: 5%;
-    background-color: #E3D4C9;
+    background-color: #c0ad9e;
     border-radius: 25px;
     box-shadow: 0px 15px 15px 0px #4e3824;
     display: flex;
@@ -490,7 +492,7 @@ header .logo img{
     color: #000000;
 }
 #contain_5 .menu nav ul li:hover{
-    background-color: #E3D4C9;
+    background-color: #c0ad9e;
 }
 #contain_5 .menu nav ul li a:hover{
     color: #968476;
