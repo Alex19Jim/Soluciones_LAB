@@ -85,6 +85,7 @@ header .logo img{
     object-fit: cover;
     opacity: .8;
     transition: .5s ease;
+    border-radius: 25px;
 }    
 #pri-contain .slider_in img:hover{
     cursor: crosshair;
