@@ -206,10 +206,12 @@ header .logo img{
     display: flex;
     animation: scroll 5s alternate infinite;
     width: calc(200px * 14); 
+    background-color: #CDC2B9;
     height: 100%;
 }
 #contain_2 .descripcion .slider .slide{
     width: 200px;
+    margin-left: 8px;
 }
 #contain_2 .descripcion .slider .slide img{
     width: 100%;
@@ -670,4 +672,10 @@ footer .social_media i:hover{
     #pri-contain .descripcion sup{
         font-size: 30px;
     }
+}
+@media (max-height: 680px){
+    #pri-contain{
+        height: 470px;        
+        transition: all 1.5s;
+    }   
 } 
