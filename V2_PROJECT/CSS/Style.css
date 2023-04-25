@@ -22,6 +22,7 @@ header .logo{
     position: absolute;
     text-align: center;
     padding-left: 725px;
+    transition: all 1.5s;
 }
 header .logo img{
     height: 200px;
@@ -79,13 +80,15 @@ header .logo img{
 #pri-contain .imagen img{
     height: 475px;
     margin-left: auto;
+    transition: all 1.5s;
 }
 
 #pri-contain .descripcion{
-    width: 30%;
-    height: 40%;
+    width: 35%;
+    height: 50%;
     padding: 8% 0px; 
     text-align: center;
+    transition: all 1.5s;
     justify-items: center;
     font-family: 'Great Vibes', cursiva;
 }
@@ -593,6 +596,7 @@ footer .social_media i:hover{
     transition: all 0.5s;
 }
 
+/* -------------------------- RESPONSIVE DESING --------------------- */
 @media (max-width: 1550px) {
     #pri-contain .descripcion h1{
         font-size: 45x;
@@ -602,4 +606,68 @@ footer .social_media i:hover{
         padding-left: 50px;
         font-family: 'Bebas Neue';
     }
+} 
+@media (max-width: 1430px) {
+    #pri-contain .descripcion{
+        margin-top: 20px;
+        margin-left: 80px;
+        transition: all 1.5s;
+    }
+    #pri-contain .descripcion h1{
+        font-size: 35px;
+    }
+    #pri-contain .descripcion sup{
+        font-size: 50px;
+        padding-left: 50px;
+        font-family: 'Bebas Neue';
+    }
+    #pri-contain .imagen{
+        width: 40%;
+        padding-top: 75px;
+    }
+    #pri-contain .imagen img{
+        height: 450px;
+    }
+    #pri-contain .descripcion button{
+        padding: 5px 65px;
+        margin-top: 170px;
+        margin-left: -500px;
+        transition: all 1.5s;
+    }
+    header .logo{
+        padding-left: 620px;
+        transition: all 1.5s;
+    } 
 }
+@media (max-width: 1130px) {
+    #pri-contain .imagen{
+        width: 25%;
+        height: 25%;
+    }
+    #pri-contain .imagen img{
+        height: 350px;
+        transition: all 1.5s;
+    }
+    #pri-contain .descripcion{
+        margin-top: 20px;
+        margin-left: 180px;
+        transition: all 1.5s;
+    }
+    header .logo{
+        padding-left: 500px;
+        transition: all 1.5s;
+    } 
+    #pri-contain .descripcion button{
+        margin-top: 100px;
+        margin-left: -350px;
+        transition: all 1.5s;
+    }
+}
+@media (max-width: 990px){
+    #pri-contain .descripcion h1{
+        font-size: 20px;
+    }
+    #pri-contain .descripcion sup{
+        font-size: 30px;
+    }
+} 
