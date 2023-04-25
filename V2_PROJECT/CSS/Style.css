@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?     family=Bebas+Neue&family=Great+Vibes&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #968476;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #968476;
+}
+hr{
+    height: 100px;
+}
+/* -------------------------------------------------- INICIO ---------------------------------------------- */
+header .logo{
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    padding-left: 725px;
+}
+header .logo img{
+    height: 200px;
+    margin: auto;
+}
+
+#pri-contain{
+    width: 90%;
+    height: 570px;
+    margin-left: 5%;
+    background-color: #E3D4C9;
+    border-radius: 25px;
+    box-shadow: 0px 15px 15px 0px #4e3824;
+    display: flex;
+}
+
+
+#pri-contain .menu{
+    width: 12%;
+    height: 100%;   
+    background-color: #CDC2B9;
+    border-radius: 25px 10px 10px 25px;
+    text-align: center;
+    display: flex;
+}
+#pri-contain .menu nav{
+    width: 100%;
+    height: 70%;
+    margin: 45% 0%;
+}
+#pri-contain .menu nav li{
+    width: auto;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px 0px;
+}
+#pri-contain .menu nav ul li:hover{
+    background-color: #E3D4C9;
+}
+#pri-contain .menu nav li a{
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+#pri-contain .menu nav ul li a:hover{
+    color: #968476;
+}
+
+#pri-contain .imagen{
+    height: 60%;
+    padding-top: 95px;
+    display: flex;
+}
+#pri-contain .imagen img{
+    height: 475px;
+    margin-left: auto;
+}
+
+#pri-contain .descripcion{
+    width: 30%;
+    height: 40%;
+    padding: 8% 0px; 
+    text-align: center;
+    justify-items: center;
+    font-family: 'Great Vibes', cursiva;
+}
+#pri-contain .descripcion h1{
+    font-size: 50px;
+}
+#pri-contain .descripcion sup{
+    font-size: 70px;
+    padding-left: 50px;
+    font-family: 'Bebas Neue';
+}
+#pri-contain .descripcion button{
+    padding: 10px 80px;
+    background-color: #a89283;
+    border-radius: 15px;
+    border: none;
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 8px 1px #282727;
+    transition: all 1.5s;
+}
+#pri-contain .descripcion button:hover{
+    transition: all 0.5s;
+    padding: 15px 90px;
+    background-color: #4e3824;
+}
+
+/* ----------------------------------------------- CATALOGO ------------------------------------------------- */
+#contain_2{
+    width: 90%;
+    height: 570px;
+    margin-left: 5%;
+    background-color: #E3D4C9;
+    border-radius: 25px;
+    box-shadow: 0px 15px 15px 0px #4e3824;
+    display: flex;
+}
+#contain_2 .menu{
+    width: 12%;
+    height: 100%;   
+    background-color: #CDC2B9;
+    border-radius: 25px 10px 10px 25px;
+    text-align: center;
+    display: flex;
+}
+#contain_2 .menu nav{
+    width: 100%;
+    height: 70%;
+    margin: 45% 0%;
+}
+#contain_2 .menu nav li{
+    width: auto;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px 0px;
+}
+#contain_2 .menu nav li a{
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+#contain_2 .menu nav ul li:hover{
+    background-color: #E3D4C9;
+}
+#contain_2 .menu nav ul li a:hover{
+    color: #968476;
+}
+
+header .logo{
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    padding-left: 725px;
+}
+header .logo img{
+    height: 200px;
+    margin: auto;
+}
+
+#contain_2 .descripcion{  /*background-color: rgba(0, 255, 255, 0.223);*/
+    width: 80%;
+    height: 80%;
+    margin-left: 4%;
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Great Vibes', cursive;
+}
+#contain_2 .descripcion h1{
+    width: 90%;
+    font-size: 50px;
+    padding: 5px;
+    margin-right: 15px;
+}
+#contain_2 .descripcion sup{
+    height: auto;
+    font-size: 65px;
+    padding-left: 60px;
+    padding-right: 60px;
+    vertical-align: middle;
+    font-family: 'Bebas Neue';
+}
+
+#contain_2 .descripcion .slider{
+    width: 78vw;
+    height: 70%;
+    margin-top: 10px;
+    margin-left: -55px;
+    overflow: hidden;
+}
+#contain_2 .descripcion .slider .slide-catalogo{
+    display: flex;
+    animation: scroll 5s alternate infinite;
+    width: calc(200px * 14); 
+    height: 100%;
+}
+#contain_2 .descripcion .slider .slide{
+    width: 200px;
+}
+#contain_2 .descripcion .slider .slide img{
+    width: 100%;
+    height: 105%;
+    border-radius: 15px;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-120px);
+    } 
+}
+
+#contain_2 .descripcion button{
+    padding: 5px 30px;
+    background-color: #a89283;
+    border-radius: 15px;
+    border: none;
+    margin-top: 20px;
+    margin-left: -70px;
+    font-weight: 350;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 8px 1px #282727;
+}
+#contain_2 .descripcion button:hover{
+    transition: all 0.5s;
+    padding: 8px 35px;
+    background-color: #4e3824;
+}
+
+
+/* --------------------------------------------------- ACERCA DE ------------------------------------------------ */
+#contain_3{
+    width: 90%;
+    height: 570px;
+    margin-left: 5%;
+    background-color: #E3D4C9;
+    border-radius: 25px;
+    box-shadow: 0px 15px 15px 0px #4e3824;
+    display: flex;
+}
+
+#contain_3 .menu{
+    width: 12%;
+    height: 100%;   
+    background-color: #CDC2B9;
+    border-radius: 25px 10px 10px 25px;
+    text-align: center;
+    display: flex;
+}
+#contain_3 .menu nav{
+    width: 100%;
+    height: 70%;
+    margin: 45% 0%;
+}
+#contain_3 .menu nav li{
+    width: auto;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px 0px;
+}
+#contain_3 .menu nav ul li:hover{
+    background-color: #E3D4C9;
+}
+#contain_3 .menu nav li a{
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+#contain_3 .menu nav ul li a:hover{
+    color: #968476;
+}
+
+header .logo{
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    padding-left: 725px;
+}
+header .logo img{
+    height: 200px;
+    margin: auto;
+}
+
+#contain_3 .slider{
+    width: 70%;
+    height: 60%;
+    margin-top: 160px;
+    margin-left: 8%;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#contain_3 .slider ul{
+    width: 400%;
+    display: flex;
+    animation: cambio 50s infinite alternate linear;
+}
+#contain_3 .slider li{
+    width: 100%;
+    list-style: none;
+}
+#contain_3 .slider h2{
+    font-size: 45px;
+    font-family: Verdana;
+}
+#contain_3 .slider p{
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #000000;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+/* ------------------------------ TRABAJA CON NOSOTROS -------------------------------- */
+#contain_4{
+    width: 90%;
+    height: 570px;
+    margin-left: 5%;
+    background-color: #E3D4C9;
+    border-radius: 25px;
+    box-shadow: 0px 15px 15px 0px #4e3824;
+    display: flex;
+}
+
+#contain_4 .menu{
+    width: 12%;
+    height: 100%;   
+    background-color: #CDC2B9;
+    border-radius: 25px 10px 10px 25px;
+    text-align: center;
+    display: flex;
+}
+#contain_4 .menu nav{
+    width: 100%;
+    height: 70%;
+    margin: 45% 0%;
+}
+#contain_4 .menu nav li{
+    width: auto;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px 0px;
+}
+#contain_4 .menu nav ul li:hover{
+    background-color: #E3D4C9;
+}
+#contain_4 .menu nav li a{
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+#contain_4 .menu nav ul li a:hover{
+    color: #968476;
+}
+
+header .logo{
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    padding-left: 725px;
+}
+header .logo img{
+    height: 200px;
+    margin: auto;
+}
+
+#contain_4 .contenido{
+    width: 650px;
+    height: 450px;
+    text-align: center;
+    margin-top: 100px;
+    padding-left: 300px;
+}
+#contain_4 .contenido h1{
+    font-size: 35px;    
+    font-family: 'Gill Sans';
+}
+
+#contain_4 .contenido .registro{
+    text-align: left;
+    margin-top: 25px;
+    margin-left: -200px;
+    display: flex;   
+}
+#contain_4 .contenido .registro label{
+    font-size: 15px;
+}
+#contain_4 .contenido .registro .cajamesage{
+    padding-top: 65px; 
+}
+#contain_4 .contenido .registro input{
+    width: 500px;
+    margin: 8px;
+    padding: 5px;
+    font-size: 10px
+}
+#contain_4 .contenido .registro .boton{
+    width: 50px;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 470px;
+    box-shadow: 2px 8px 8px 0px #968476;
+}
+
+#contain_5 .contenido img{
+    width: 300px;
+    height: 280px;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+/* ------------------------------ CONTACTANOS -------------------------------- */
+#contain_5{
+    width: 90%;
+    height: 570px;
+    margin-left: 5%;
+    background-color: #E3D4C9;
+    border-radius: 25px;
+    box-shadow: 0px 15px 15px 0px #4e3824;
+    display: flex;
+}
+
+#contain_5 .menu{
+    width: 12%;
+    height: 100%;   
+    background-color: #CDC2B9;
+    border-radius: 25px 10px 10px 25px;
+    text-align: center;
+    display: flex;
+}
+#contain_5 .menu nav{
+    width: 100%;
+    height: 70%;
+    margin: 45% 0%;
+}
+#contain_5 .menu nav li{
+    width: auto;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px 0px;
+}
+#contain_5 .menu nav li a{
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+#contain_5 .menu nav ul li:hover{
+    background-color: #E3D4C9;
+}
+#contain_5 .menu nav ul li a:hover{
+    color: #968476;
+}
+
+header .logo{
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    padding-left: 725px;
+}
+header .logo img{
+    height: 200px;
+    margin: auto;
+}
+
+#contain_5 .contenido{
+    width: 1080px;
+    height: 450px;
+    text-align: center;
+    margin-top: 100px;
+    padding-left: 105px; 
+}
+#contain_5 .contenido h1{
+    font-size: 35px;    
+    font-family: 'Gill Sans';
+}
+
+#contain_5 .contenido .info{
+    width: 20%;
+    height: 30%;
+    background-color: #9684768e ;
+    margin-top: 85px;
+}
+#contain_5 .contenido .info p{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#contain_5 .contenido .info a{
+    text-decoration: none;
+}
+
+#contain_5 .contenido .info2{
+    width: 20%;
+    height: 30%;
+    background-color: #9684768e ;
+    margin-top: -135px;
+    margin-left: 300px;
+}
+#contain_5 .contenido .info2 p{
+    font-size: 15x;
+    padding-top: 25px;
+}
+
+#contain_5 .contenido .reseña{
+    background-color: #9684768e;
+    width: 40%; 
+    height: 55%;
+    margin-top: -180px;
+    margin-left: 600px;
+}
+#contain_5 .contenido .reseña form{
+    text-align: left;
+    margin-left: 12px;
+    padding-top: 12px;
+}
+#contain_5 .contenido .reseña label{
+    padding: 3px;
+}
+#contain_5 .contenido .reseña input{
+    width: 380px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 10px;
+}
+#contain_5 .contenido .reseña .cajamesage{
+    height: 70px;
+}
+#contain_5 .contenido .reseña .boton{
+    width: 100px;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 160px;
+    box-shadow: 2px 8px 8px 0px #968476;
+}
+
+
+
+footer{
+    width: 100%;
+    margin-top: 20px;
+    height: 150px;
+}
+footer .social_media{
+    width: 500px;
+    height: 100px;
+    padding-left: 700px;
+    margin-top: 50px;
+    justify-content: center;
+}
+footer .social_media a{
+    list-style: none;
+    text-decoration: none;
+}
+footer .social_media i{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    padding: 30px 20px 0px 20px;
+    text-align: center; transition: all 0.5s;
+}
+footer .social_media i:hover{
+    color: silver;
+    transform: rotate(15deg);
+    transition: all 0.5s;
+}
