@@ -592,3 +592,14 @@ footer .social_media i:hover{
     transform: rotate(15deg);
     transition: all 0.5s;
 }
+
+@media (max-width: 1550px) {
+    #pri-contain .descripcion h1{
+        font-size: 45x;
+    }
+    #pri-contain .descripcion sup{
+        font-size: 60px;
+        padding-left: 50px;
+        font-family: 'Bebas Neue';
+    }
+}
