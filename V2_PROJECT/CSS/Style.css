@@ -72,15 +72,25 @@ header .logo img{
     color: #968476;
 }
 
-#pri-contain .imagen{
-    height: 60%;
-    padding-top: 95px;
+#pri-contain .slider_in{
+    width: 650px;
+    height: 70%;
     display: flex;
+    margin-top: 100px;
+    margin-left: 15px;
 }
-#pri-contain .imagen img{
-    height: 475px;
-    margin-left: auto;
-    transition: all 1.5s;
+#pri-contain .slider_in img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}    
+#pri-contain .slider_in img:hover{
+    cursor: crosshair;
+    width: 400px;
+    opacity: 1;
+    filter: contrast(120%);
 }
 
 #pri-contain .descripcion{
@@ -639,7 +649,7 @@ footer .social_media i:hover{
     header .logo{
         padding-left: 620px;
         transition: all 1.5s;
-    } 
+    }
 }
 @media (max-width: 1130px) {
     #pri-contain .imagen{
