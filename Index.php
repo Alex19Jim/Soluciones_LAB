@@ -295,5 +295,7 @@ echo "M V C";
 //Control Frontal
 //Usar Controlador
 
-
+$i = 1;
+$array[$i] = $i++;
+echo $array[2];
 ?>
